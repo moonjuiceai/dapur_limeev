@@ -1,0 +1,233 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #f8fafc;
+    box-sizing: border-box;
+}
+
+.auth-box {
+    background: #ffffff;
+    width: 100%;
+    max-width: 420px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03); 
+    box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.auth-box:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.06);
+}
+
+.auth-box h2 {
+    margin: 0 0 8px 0;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1e293b;
+    letter-spacing: -0.5px;
+}
+
+.auth-box p {
+    color: #94a3b8;
+    margin-bottom: 30px;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.input-group {
+    margin-bottom: 22px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #475569;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+}
+
+.input-wrapper {
+    position: relative;
+}
+
+.input-wrapper i {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #94a3b8;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.input-wrapper input {
+    width: 100%;
+    padding: 13px 16px 13px 48px; 
+    border: 1.5px solid #e2e8f0;
+    border-radius: 12px;
+    outline: none;
+    font-size: 14px;
+    color: #334155;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8fafc;
+}
+
+.input-wrapper input:focus {
+    border-color: #ff9f43; 
+    background-color: #ffffff;
+    box-shadow: 0 0 0 4px rgba(255, 159, 67, 0.15);
+}
+
+.input-wrapper input:focus + i {
+    color: #ff9f43;
+}
+
+.btn-auth {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, #FFFF8F, #ff7a18); /* Efek gradasi mewah */
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    box-shadow: 0 4px 12px rgba(255, 159, 67, 0.25);
+}
+
+.btn-auth:hover {
+    background: linear-gradient(135deg, #ff7a18, #e66a00);
+    transform: translateY(-1px);
+    box-shadow: 0 6px 18px rgba(255, 159, 67, 0.35);
+}
+
+.btn-auth:active {
+    transform: translateY(1px);
+}
+
+.auth-link {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #64748b;
+}
+
+.auth-link a {
+    color: #ff9f43;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.auth-link a:hover {
+    text-decoration: underline;
+    color: #ff7a18;
+}
+
+
+.recipe-form-container {
+    padding: 30px;
+    background-color: #f8fafc;
+    min-height: calc(100vh - 90px);
+    box-sizing: border-box;
+}
+
+.recipe-form-box {
+    background: #ffffff;
+    width: 100%;
+    max-width: 750px; 
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
+    box-sizing: border-box;
+    text-align: left; 
+}
+
+.recipe-form-box h2 {
+    margin: 0 0 6px 0;
+    color: #1e293b;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.recipe-form-box p {
+    color: #94a3b8;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.input-wrapper textarea {
+    width: 100%;
+    padding: 13px 16px;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 12px;
+    outline: none;
+    font-size: 14px;
+    color: #334155;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8fafc;
+    resize: vertical;
+    min-height: 100px;
+}
+
+.input-wrapper textarea:focus {
+    border-color: #ff9f43;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 4px rgba(255, 159, 67, 0.15);
+}
+
+.input-wrapper select {
+    width: 100%;
+    padding: 13px 16px;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 12px;
+    outline: none;
+    font-size: 14px;
+    color: #334155;
+    background-color: #f8fafc;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.input-wrapper select:focus {
+    border-color: #ff9f43;
+    box-shadow: 0 0 0 4px rgba(255, 159, 67, 0.15);
+}
+
+.input-wrapper input[type="file"] {
+    padding: 12px;
+    background-color: #f1f5f9;
+    border: 1.5px dashed #cbd5e1;
+    cursor: pointer;
+}
+
+html,
+body {
+    height: auto !important;
+    overflow-y: auto !important;
+}
+
+.main {
+    min-height: 100vh;
+    overflow: visible !important;
+}
+
+.recipe-form-container,
+.recipe-form-box,
+.auth-container,
+.auth-box {
+    overflow: visible !important;
+}
